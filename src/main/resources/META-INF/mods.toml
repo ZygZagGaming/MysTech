@@ -1,0 +1,42 @@
+
+modLoader="javafml"
+
+loaderVersion="[34,)"
+
+license="All rights reserved"
+
+issueTrackerURL="http://my.issue.tracker/"
+
+[[mods]]
+
+modId="myst"
+
+version="1.16.3-1.0.0"
+
+displayName="MysTech"
+
+updateJSONURL="http://myurl.me/"
+
+displayURL="http://example.com/"
+
+logoFile="examplemod.png"
+
+credits="TechnoVision for the mod tutorial"
+
+authors="ZygZag"
+
+description='''
+Tech- and magic-themed mod for Minnecraft 1.16.3
+'''
+[[dependencies.examplemod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[34,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.3]"
+    ordering="NONE"
+    side="BOTH"

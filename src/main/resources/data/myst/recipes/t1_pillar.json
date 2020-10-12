@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "myst:t1_core"
+    },
+    {
+      "item": "minecraft:quartz_pillar"
+    }
+  ],
+  "result":
+  {
+    "item": "myst:t1_pillar",
+    "count": 1
+  }
+}

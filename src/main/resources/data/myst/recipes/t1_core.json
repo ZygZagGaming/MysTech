@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "myst:core_frame"
+  },
+  "addition": {
+    "item": "minecraft:ender_eye"
+  },
+  "result": {
+    "item": "myst:t1_core"
+  }
+}
