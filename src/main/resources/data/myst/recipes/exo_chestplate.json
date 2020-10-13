@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x x",
+    "rec",
+    "ixi"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "myst:iron_rod"
+    },
+    "r":
+    {
+      "item": "minecraft:redstone_repeater"
+    },
+    "e":
+    {
+      "item": "myst:t1_core"
+    },
+    "c":
+    {
+      "item": "minecraft:redstone_comparator"
+    },
+    "i":
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "myst:exo_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "yxy",
+    "xex"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "myst:iron_rod"
+    },
+    "y":
+    {
+      "item": "minecraft:redstone_dust"
+    },
+    "e":
+    {
+      "item": "myst:t1_core"
+    }
+  },
+  "result":
+  {
+    "item": "myst:exo_helmet",
+    "count": 1
+  }
+}
