@@ -1,5 +1,10 @@
 {
   "item.myst.t1_core": "Ender Core",
+  "item.myst.ender_sword": "Ender Sword",
+  "item.myst.ender_axe": "Ender Axe",
+  "item.myst.ender_pickaxe": "Ender Pickaxe",
+  "item.myst.ender_shovel": "Ender Shovel",
+  "item.myst.ender_hoe": "Ender Hoe",
   "item.myst.core_frame": "Core Frame",
   "block.myst.t1_pillar": "Ender Infusion Pillar",
   "itemGroup.mystechTab": "Mystech Items"
