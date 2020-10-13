@@ -7,5 +7,9 @@
   "item.myst.ender_hoe": "Ender Hoe",
   "item.myst.core_frame": "Core Frame",
   "block.myst.t1_pillar": "Ender Infusion Pillar",
-  "itemGroup.mystechTab": "Mystech Items"
+  "itemGroup.mystechTab": "Mystech Items",
+  "item.myst.exo_helmet": "Exosuit Helmet",
+  "item.myst.exo_chestplate": "Exosuit Chestplate",
+  "item.myst.exo_leggings": "Exosuit Leggings",
+  "item.myst.exo_boots": "Exosuit Boots"
 }
