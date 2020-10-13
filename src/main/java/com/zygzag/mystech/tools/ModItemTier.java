@@ -9,7 +9,7 @@ import java.util.function.Supplier;
 public enum ModItemTier implements IItemTier {
 
     ENDER(5, 2581, 10.0F, 5.5F, 20, () -> {
-        return Ingredient.fromItems(RegistryHandler.ENDER_SWORD.get());
+        return Ingredient.fromItems(RegistryHandler.T1_CORE.get());
     });
 
     private final int harvestLevel;
