@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "addition": {
+    "item": "myst:t1_core"
+  },
+  "result": {
+    "item": "myst:ender_pickaxe"
+  }
+}
