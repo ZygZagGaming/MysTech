@@ -5,7 +5,7 @@ loaderVersion="[34,)"
 
 license="All rights reserved"
 
-issueTrackerURL="http://my.issue.tracker/"
+issueTrackerURL="https://github.com/ZygZagGaming/MysTech/issues"
 
 [[mods]]
 
@@ -19,7 +19,7 @@ updateJSONURL="http://myurl.me/"
 
 displayURL="http://example.com/"
 
-logoFile="examplemod.png"
+logoFile="logo.png"
 
 credits="TechnoVision for the mod tutorial"
 
