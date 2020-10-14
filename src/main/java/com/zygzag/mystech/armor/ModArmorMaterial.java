@@ -1,7 +1,7 @@
 package com.zygzag.mystech.armor;
 
 import com.zygzag.mystech.MysTech;
-import com.zygzag.mystech.util.RegistryHandler;
+import com.zygzag.mystech.util.ItemRegistryHandler;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.crafting.Ingredient;
@@ -15,7 +15,7 @@ import java.util.function.Supplier;
 public enum ModArmorMaterial implements IArmorMaterial {
 
     EXO(MysTech.MOD_ID + ":exo", 35, new int[] { 1, 2, 2, 1 }, 20,
-            SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 1.3F, () -> { return Ingredient.fromItems(RegistryHandler.IRON_ROD.get()); });
+            SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 1.3F, () -> { return Ingredient.fromItems(ItemRegistryHandler.IRON_ROD.get()); });
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[] { 11, 16, 15, 13 };
     private final String name;

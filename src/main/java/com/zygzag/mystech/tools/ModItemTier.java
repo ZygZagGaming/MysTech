@@ -1,6 +1,6 @@
 package com.zygzag.mystech.tools;
 
-import com.zygzag.mystech.util.RegistryHandler;
+import com.zygzag.mystech.util.ItemRegistryHandler;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 
@@ -9,7 +9,7 @@ import java.util.function.Supplier;
 public enum ModItemTier implements IItemTier {
 
     ENDER(5, 2581, 10.0F, 5.5F, 20, () -> {
-        return Ingredient.fromItems(RegistryHandler.T1_CORE.get());
+        return Ingredient.fromItems(ItemRegistryHandler.T1_CORE.get());
     });
 
     private final int harvestLevel;

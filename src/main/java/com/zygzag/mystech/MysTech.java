@@ -1,6 +1,9 @@
 package com.zygzag.mystech;
 
-import com.zygzag.mystech.util.RegistryHandler;
+import com.zygzag.mystech.util.ArmorRegistryHandler;
+import com.zygzag.mystech.util.BlockRegistryHandler;
+import com.zygzag.mystech.util.ItemRegistryHandler;
+import com.zygzag.mystech.util.ToolRegistryHandler;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -25,7 +28,11 @@ public class MysTech
         // Register the doClientStuff method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
-        RegistryHandler.init();
+        ItemRegistryHandler.init();
+        ToolRegistryHandler.init();
+        ArmorRegistryHandler.init();
+        BlockRegistryHandler.init();
+
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -42,7 +49,7 @@ public class MysTech
     public static final ItemGroup TAB = new ItemGroup("mystechTab") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(RegistryHandler.T1_CORE.get());
+            return new ItemStack(ItemRegistryHandler.T1_CORE.get());
         }
     };
 
