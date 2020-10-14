@@ -28,11 +28,11 @@ public class MysTech
         // Register the doClientStuff method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
+        // Initialize content registries
         ItemRegistryHandler.init();
         ToolRegistryHandler.init();
         ArmorRegistryHandler.init();
         BlockRegistryHandler.init();
-
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
