@@ -21,7 +21,13 @@ public class ItemRegistryHandler {
 
     // Items
     public static final RegistryObject<Item> T1_CORE = ITEMS.register("t1_core", ItemBase::new);
+    public static final RegistryObject<Item> T2_CORE = ITEMS.register("t2_core", ItemBase::new);
+    public static final RegistryObject<Item> T3_CORE = ITEMS.register("t3_core", ItemBase::new);
+    public static final RegistryObject<Item> T4_CORE = ITEMS.register("t4_core", ItemBase::new);
+    public static final RegistryObject<Item> T5_CORE = ITEMS.register("t5_core", ItemBase::new);
+    public static final RegistryObject<Item> T6_CORE = ITEMS.register("t6_core", ItemBase::new);
     public static final RegistryObject<Item> CORE_FRAME = ITEMS.register("core_frame", ItemBase::new);
     public static final RegistryObject<Item> IRON_ROD = ITEMS.register("iron_rod", ItemBase::new);
+    public static final RegistryObject<Item> LIGHTNING_BOLT = ITEMS.register("lightning_bolt", ItemBase::new);
 
 }

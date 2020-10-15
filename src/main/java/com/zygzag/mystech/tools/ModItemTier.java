@@ -10,6 +10,26 @@ public enum ModItemTier implements IItemTier {
 
     ENDER(5, 2581, 10.0F, 5.5F, 20, () -> {
         return Ingredient.fromItems(ItemRegistryHandler.T1_CORE.get());
+    }),
+
+    ADVANCED_ENDER(6,3004,11.0F,6.0F,20 , () -> {
+        return Ingredient.fromItems(ItemRegistryHandler.T2_CORE.get());
+    }),
+
+    EMPOWERED_ENDER(7, 3500, 11.5F, 6.5F, 20, () -> {
+        return Ingredient.fromItems(ItemRegistryHandler.T3_CORE.get());
+    }),
+
+    CHAOTIC_ENDER(8, 1200, 15.0F, 9.0F, 0, () -> {
+        return Ingredient.fromItems(ItemRegistryHandler.T4_CORE.get());
+    }),
+
+    REFINED_ENDER(9, 3750, 15.0F, 9.0F, 20, () -> {
+        return Ingredient.fromItems(ItemRegistryHandler.T5_CORE.get());
+    }),
+
+    ULTIMATE_ENDER(10, 10000, 20.0F, 15.0F, 10, () -> {
+        return Ingredient.fromItems(ItemRegistryHandler.T6_CORE.get());
     });
 
     private final int harvestLevel;

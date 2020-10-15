@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " s ",
+    "xcx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "myst:t2_pillar"
+    },
+    "c":
+    {
+      "item": "myst:t2_core"
+    },
+    "s":
+    {
+      "item": "myst:t1_stone"
+    }
+  },
+  "result":
+  {
+    "item": "myst:t2_stone",
+    "count": 1
+  }
+}

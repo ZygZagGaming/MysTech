@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern":
   [
-    "xxx",
+    "xx x",
     "xcx",
     "xxx"
   ],
@@ -10,16 +10,16 @@
   {
     "x":
     {
-      "item": "myst:t1_core"
+      "item": "myst:t6_core"
     },
     "y":
     {
-      "item": "minecraft:quartz_pillar"
+      "item": "myst:t5_pillar"
     }
   },
   "result":
   {
-    "item": "myst:t1_pillar",
-    "count": 8
+    "item": "myst:t6_pillar",
+    "count": 1
   }
 }

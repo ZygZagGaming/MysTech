@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "cxc",
+    "csc",
+    "xcx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "myst:t6_pillar"
+    },
+    "c":
+    {
+      "item": "myst:t6_core"
+    },
+    "s":
+    {
+      "item": "myst:t5_stone"
+    }
+  },
+  "result":
+  {
+    "item": "myst:t6_stone",
+    "count": 1
+  }
+}
