@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "dbd",
+    "bcb",
+    "dbd"
+  ],
+  "key":
+  {
+    "b":
+    {
+      "item": "myst:infused_ice"
+    },
+    "c":
+    {
+      "item": "myst:t2_core"
+    },
+    "d":
+    {
+      "item": "myst:t1_core"
+    }
+  },
+  "result":
+  {
+    "item": "myst:compressed_ice",
+    "count": 1
+  }
+}

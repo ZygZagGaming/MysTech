@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "cbc",
+    "bdb",
+    "cbc"
+  ],
+  "key":
+  {
+    "c":
+    {
+      "item": "myst:t1_core"
+    },
+    "b":
+    {
+      "item": "minecraft:nether_brick"
+    },
+    "d":
+    {
+      "item": "minecraft:ancient_debris"
+    }
+  },
+  "result":
+  {
+    "item": "myst:t2_core",
+    "count": 1
+  }
+}

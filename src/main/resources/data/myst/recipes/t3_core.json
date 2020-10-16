@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "cic",
+    "ini",
+    "cic"
+  ],
+  "key":
+  {
+    "c":
+    {
+      "item": "myst:t2_core"
+    },
+    "n":
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    "i":
+    {
+      "item": "myst:compressed_ice"
+    }
+  },
+  "result":
+  {
+    "item": "myst:t3_core",
+    "count": 1
+  }
+}

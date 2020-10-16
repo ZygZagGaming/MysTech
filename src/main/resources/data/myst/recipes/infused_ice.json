@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "bbb",
+    "bcb",
+    "bbb"
+  ],
+  "key":
+  {
+    "b":
+    {
+      "item": "minecraft:blue_ice"
+    },
+    "c":
+    {
+      "item": "myst:t1_core"
+    }
+  },
+  "result":
+  {
+    "item": "myst:infused_ice",
+    "count": 1
+  }
+}
