@@ -55,22 +55,31 @@ public class ModClientEvents {
         if the entity who attacked was a player and was holding a t3 core then it is set to t4
          */
         Entity entity = event.getEntityLiving();
-            Entity source = event.getSource().getImmediateSource();
+        Entity source = event.getSource().getImmediateSource();
+        assert source != null;
         if (source.getType() == EntityType.PLAYER) {
             PlayerEntity player = (PlayerEntity) entity;
             Item main = player.getHeldItemMainhand().getItem();
             Item offhand = player.getHeldItemOffhand().getItem();
             int count = player.getHeldItemMainhand().getCount();
+            int ocount = player.getHeldItemOffhand().getCount();
+            ServerWorld world = (ServerWorld) event.getEntity().world;
             if (event.getAmount() >= 15) {
                 if (main == ItemRegistryHandler.T3_CORE.get()) {
                     ItemStack stack = ItemRegistryHandler.T4_CORE.get().getDefaultInstance();
-                    stack.setCount(count);
                     player.setItemStackToSlot(EquipmentSlotType.MAINHAND, stack);
+                    ItemEntity item = new ItemEntity(EntityType.ITEM, world);
+                    stack.setCount(count - 1);
+                    item.setItem(stack);
+                    world.summonEntity(item);
                 }
                 if (offhand == ItemRegistryHandler.T3_CORE.get()) {
                     ItemStack stack = ItemRegistryHandler.T4_CORE.get().getDefaultInstance();
-                    stack.setCount(count);
                     player.setItemStackToSlot(EquipmentSlotType.OFFHAND, stack);
+                    ItemEntity item = new ItemEntity(EntityType.ITEM, world);
+                    stack.setCount(ocount - 1);
+                    item.setItem(stack);
+                    world.summonEntity(item);
                 }
             }
         }
