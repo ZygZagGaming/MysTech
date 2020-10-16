@@ -53,6 +53,7 @@ public class ModClientEvents {
         }
     }
 
+    @SubscribeEvent
     public static void onAttack(LivingAttackEvent event) {
 
 
