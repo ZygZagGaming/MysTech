@@ -1,5 +1,16 @@
 {
   "variants": {
-    "": { "model": "myst:block/t1_pillar" }
+    "axis=x": {
+      "model": "myst:block/t1_pillar_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "myst:block/t1_pillar"
+    },
+    "axis=z": {
+      "model": "myst:block/t1_pillar_horizontal",
+      "x": 90
+    }
   }
 }

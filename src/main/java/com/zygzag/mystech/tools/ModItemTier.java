@@ -28,7 +28,7 @@ public enum ModItemTier implements IItemTier {
         return Ingredient.fromItems(ItemRegistryHandler.T5_CORE.get());
     }),
 
-    ULTIMATE_ENDER(10, 10000, 20.0F, 15.0F, 10, () -> {
+    ULTIMATE_ENDER(10, 10000, 50.0F, 15.0F, 10, () -> {
         return Ingredient.fromItems(ItemRegistryHandler.T6_CORE.get());
     });
 
