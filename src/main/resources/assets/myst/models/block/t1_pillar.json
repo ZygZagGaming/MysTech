@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "myst:block/t1_pillar_top",
-    "side": "myst:block/t1_pillar"
+    "end": "block/t1_pillar_top",
+    "side": "block/t1_pillar"
   }
 }
